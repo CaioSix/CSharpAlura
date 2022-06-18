@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.2.32526.322
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SegundoByteBank", "SegundoByteBank\SegundoByteBank.csproj", "{1D0399AE-99C1-4BE4-9825-6421CF943F8E}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{1D0399AE-99C1-4BE4-9825-6421CF943F8E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1D0399AE-99C1-4BE4-9825-6421CF943F8E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1D0399AE-99C1-4BE4-9825-6421CF943F8E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1D0399AE-99C1-4BE4-9825-6421CF943F8E}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {6E59177B-D4E6-404E-B7C5-FED2528AB428}
+	EndGlobalSection
+EndGlobal
