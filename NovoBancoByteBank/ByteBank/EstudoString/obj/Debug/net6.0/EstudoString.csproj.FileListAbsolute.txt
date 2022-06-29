@@ -1,0 +1,15 @@
+C:\Users\dti Digital\Documents\AprendendoCSharp\NovoBancoByteBank\ByteBank\EstudoString\bin\Debug\net6.0\EstudoString.exe
+C:\Users\dti Digital\Documents\AprendendoCSharp\NovoBancoByteBank\ByteBank\EstudoString\bin\Debug\net6.0\EstudoString.deps.json
+C:\Users\dti Digital\Documents\AprendendoCSharp\NovoBancoByteBank\ByteBank\EstudoString\bin\Debug\net6.0\EstudoString.runtimeconfig.json
+C:\Users\dti Digital\Documents\AprendendoCSharp\NovoBancoByteBank\ByteBank\EstudoString\bin\Debug\net6.0\EstudoString.dll
+C:\Users\dti Digital\Documents\AprendendoCSharp\NovoBancoByteBank\ByteBank\EstudoString\bin\Debug\net6.0\EstudoString.pdb
+C:\Users\dti Digital\Documents\AprendendoCSharp\NovoBancoByteBank\ByteBank\EstudoString\obj\Debug\net6.0\EstudoString.csproj.AssemblyReference.cache
+C:\Users\dti Digital\Documents\AprendendoCSharp\NovoBancoByteBank\ByteBank\EstudoString\obj\Debug\net6.0\EstudoString.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\dti Digital\Documents\AprendendoCSharp\NovoBancoByteBank\ByteBank\EstudoString\obj\Debug\net6.0\EstudoString.AssemblyInfoInputs.cache
+C:\Users\dti Digital\Documents\AprendendoCSharp\NovoBancoByteBank\ByteBank\EstudoString\obj\Debug\net6.0\EstudoString.AssemblyInfo.cs
+C:\Users\dti Digital\Documents\AprendendoCSharp\NovoBancoByteBank\ByteBank\EstudoString\obj\Debug\net6.0\EstudoString.csproj.CoreCompileInputs.cache
+C:\Users\dti Digital\Documents\AprendendoCSharp\NovoBancoByteBank\ByteBank\EstudoString\obj\Debug\net6.0\EstudoString.dll
+C:\Users\dti Digital\Documents\AprendendoCSharp\NovoBancoByteBank\ByteBank\EstudoString\obj\Debug\net6.0\refint\EstudoString.dll
+C:\Users\dti Digital\Documents\AprendendoCSharp\NovoBancoByteBank\ByteBank\EstudoString\obj\Debug\net6.0\EstudoString.pdb
+C:\Users\dti Digital\Documents\AprendendoCSharp\NovoBancoByteBank\ByteBank\EstudoString\obj\Debug\net6.0\EstudoString.genruntimeconfig.cache
+C:\Users\dti Digital\Documents\AprendendoCSharp\NovoBancoByteBank\ByteBank\EstudoString\obj\Debug\net6.0\ref\EstudoString.dll

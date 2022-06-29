@@ -4,6 +4,7 @@ namespace _07_ByteBank
     public class ContaCorrente
     {
         public Cliente Titular { get; set; }
+        public static double TaxaOperacao { get; private set; }
 
         public static int TotalDeContasCriadas { get; private set; }   
 
@@ -13,7 +14,7 @@ namespace _07_ByteBank
             { 
                 return _agencia;
             }
-            set
+            private set
                 { 
                 if(value < 0)
                 {
@@ -22,9 +23,9 @@ namespace _07_ByteBank
                 _agencia = value;
             }
             }
-        public int Numero { get; set; }
+        public int Numero { get;  }
 
-        private double _saldo;
+        private double _saldo = 100;
 
       
 
@@ -52,6 +53,18 @@ namespace _07_ByteBank
         {
             this.Agencia = agencia;
             this.Numero = numero;
+
+
+            //TaxaOperacao = 30 / TotalDeContasCriadas;
+            if(agencia <= 0)
+            {
+                throw new ArgumentException("O Argumento agencia devem ser maiores que 0.", nameof(agencia));
+            }
+            if(numero <= 0)
+            {
+                throw new ArgumentException("O Argumento numero devem ser maiores que 0.", nameof(numero));
+            }
+            
             ContaCorrente.TotalDeContasCriadas++;
         }
 

@@ -13,6 +13,7 @@ namespace SegundoByteBank.Funcionarios
         public string CPF { get; private set; }
         public double Salario { get; protected set; }
 
+
         public Funcionario(double salario , string cpf)
         {
             Console.WriteLine("Criando um funcionario");
@@ -23,16 +24,11 @@ namespace SegundoByteBank.Funcionarios
             TotalDeFuncionarios++;
         }
 
-        public virtual void AumentarSalario()
-        {
-            //Salario = Salario + (Salario * 0.1);
-            //Salario = Salario * 1.1;
-            Salario *= 1.1;
-        }
-        public virtual double GetBonificacao()
-        {
-            return Salario * 0.10;
-        }
+    
+        public abstract void AumentarSalario();
+
+        public abstract double GetBonificacao();
+       
 
     }
 }

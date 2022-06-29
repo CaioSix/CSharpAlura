@@ -4,24 +4,71 @@
     {
         static void Main(String[] args)
         {
-            ContaCorrente conta = new ContaCorrente(147, 1564798);
-            Cliente Caio = new Cliente();
+            try
+            {
+                ContaCorrente conta = new ContaCorrente(1502, 15612);
+                conta.Depositar(50);
 
-            conta.Titular = Caio;
-            Caio.Nome = "Caio Henrique F C";
-            Console.WriteLine("O dono da conta é " + conta.Titular.Nome);
-            Console.WriteLine("a primeira conta é :"+ conta.Agencia);
-            Console.WriteLine("a segunda conta é : "+ conta.Numero);
+                Console.WriteLine(conta.Saldo);
+                conta.Sacar(500);
+                Console.WriteLine(conta.Saldo);
+            }
+            catch(ArgumentException ex)
+            {
+                Console.WriteLine("Erro no parametro: " + ex.ParamName);
+                Console.WriteLine("Ocorreu um erro do tipo ArgumentExeption");
+                Console.WriteLine(ex.Message);
+            }
 
-            ContaCorrente contaDoBino = new ContaCorrente(147, 14567813);
-            ContaCorrente contaDoPedro = new ContaCorrente(231, 32132131);
-            ContaCorrente contaDoBlalaino = new ContaCorrente(147, 14567813);
-            ContaCorrente contaDoPedroDiLarinha = new ContaCorrente(231, 32132131);
 
-            Console.WriteLine("Total de contas criadas: " + ContaCorrente.TotalDeContasCriadas);
+
+
+
+            /*try
+            {
+
+
+                Metodo();
+            }
+            catch (DivideByZeroException excecao)
+            {
+                Console.WriteLine(excecao.Message);
+                Console.WriteLine(excecao.StackTrace);
+            }
+            catch (NullReferenceException excecao)
+            {
+                Console.WriteLine(excecao.Message);
+                Console.WriteLine(excecao.StackTrace);
+            }*/
 
             Console.ReadLine();
 
+        }
+
+
+        public static void Metodo()
+        {
+            TestaDivisao(0);
+        }
+
+
+        public static void TestaDivisao(int divisor)
+        {
+            int resultado = Dividir(10, divisor);
+            Console.WriteLine("Resultado da divisao de 10 por " + "é " + resultado);
+        }
+
+        private static int Dividir(int numero, int divisor)
+        {
+            try
+            {
+                return numero / divisor;
+            }
+            catch
+            {
+                Console.WriteLine("Exceção com numero = " + numero + "e dividor = " + divisor);
+                throw;
+            }
         }
     }
 }

@@ -1,0 +1,15 @@
+C:\Users\dti Digital\Documents\AprendendoCSharp\ByteBank\Execoes\bin\Debug\net6.0\Execoes.exe
+C:\Users\dti Digital\Documents\AprendendoCSharp\ByteBank\Execoes\bin\Debug\net6.0\Execoes.deps.json
+C:\Users\dti Digital\Documents\AprendendoCSharp\ByteBank\Execoes\bin\Debug\net6.0\Execoes.runtimeconfig.json
+C:\Users\dti Digital\Documents\AprendendoCSharp\ByteBank\Execoes\bin\Debug\net6.0\Execoes.dll
+C:\Users\dti Digital\Documents\AprendendoCSharp\ByteBank\Execoes\bin\Debug\net6.0\Execoes.pdb
+C:\Users\dti Digital\Documents\AprendendoCSharp\ByteBank\Execoes\obj\Debug\net6.0\Execoes.csproj.AssemblyReference.cache
+C:\Users\dti Digital\Documents\AprendendoCSharp\ByteBank\Execoes\obj\Debug\net6.0\Execoes.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\dti Digital\Documents\AprendendoCSharp\ByteBank\Execoes\obj\Debug\net6.0\Execoes.AssemblyInfoInputs.cache
+C:\Users\dti Digital\Documents\AprendendoCSharp\ByteBank\Execoes\obj\Debug\net6.0\Execoes.AssemblyInfo.cs
+C:\Users\dti Digital\Documents\AprendendoCSharp\ByteBank\Execoes\obj\Debug\net6.0\Execoes.csproj.CoreCompileInputs.cache
+C:\Users\dti Digital\Documents\AprendendoCSharp\ByteBank\Execoes\obj\Debug\net6.0\Execoes.dll
+C:\Users\dti Digital\Documents\AprendendoCSharp\ByteBank\Execoes\obj\Debug\net6.0\refint\Execoes.dll
+C:\Users\dti Digital\Documents\AprendendoCSharp\ByteBank\Execoes\obj\Debug\net6.0\Execoes.pdb
+C:\Users\dti Digital\Documents\AprendendoCSharp\ByteBank\Execoes\obj\Debug\net6.0\Execoes.genruntimeconfig.cache
+C:\Users\dti Digital\Documents\AprendendoCSharp\ByteBank\Execoes\obj\Debug\net6.0\ref\Execoes.dll

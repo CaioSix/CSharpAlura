@@ -1,4 +1,5 @@
 ﻿using SegundoByteBank.Funcionarios;
+using SegundoByteBank.Sistemas;
 
 namespace SegundoByteBank
 {
@@ -6,9 +7,29 @@ namespace SegundoByteBank
     {
         static void Main(String[] args)
         {
-            CalcularBonificacao();
+            //CalcularBonificacao();
+            UsarSistema();
 
             Console.ReadLine();
+        }
+
+        public static void UsarSistema()
+        {
+            SistemaInterno sistemaInterno = new SistemaInterno();
+
+            Diretor roberta = new Diretor("456.132.432.613");
+            roberta.Nome = "Roberta";
+            roberta.Senha = "123";
+
+            GerenteDeConta camila = new GerenteDeConta("123.456.789.123");
+            camila.Nome = "Camila";
+            camila.Senha = "abc";
+
+            sistemaInterno.Logar(roberta, "123");
+            sistemaInterno.Logar(camila, "abc");
+
+
+
         }
 
         public static void CalcularBonificacao()
